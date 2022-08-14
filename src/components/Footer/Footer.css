@@ -1,0 +1,328 @@
+.footer-section{
+    background-color: rgb(21, 24, 32);
+    /* border: 5px solid rgb(252, 11, 11); */
+    margin-top: 60px;
+}
+
+.share-section{
+    /* background-color: #252121; */
+    /* margin-top: 50px; */
+    /* border: 1px solid rgb(255, 255, 255); */
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.share{
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.share-1{
+    /* background-color: aqua; */
+    text-align: left;
+    padding-left: 5px;
+    
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.footer-logo{
+    padding: 10px;
+    overflow: hidden;
+}
+.site-name{
+    color: rgb(255, 172, 40);
+}
+.logo-text{
+    font-weight: 700 !important;
+    /* background-color: aqua; */
+}
+.logo-text a{
+    text-decoration: none;
+    color: rgb(236, 236, 236);
+}
+
+
+.share-2{
+    display: flex;
+    padding: 30px 20px;
+    border-left: 1px solid rgba(66, 66, 66, 0.758);
+    border-right: 1px solid rgba(66, 66, 66, 0.758);
+    
+}
+.icon{
+    color: rgb(179, 179, 179);
+    padding: 5px 15px;
+    /* background-color: red; */
+    margin: 2px;
+    /* cursor: pointer; */
+    transition: .3s;
+}
+.icon:hover{
+    color: rgb(255, 166, 0);
+    /* background-color:rgba(28, 26, 26, 0.935); */
+    /* padding: 4px 15px; */
+    /* border-radius: 150px; */
+    /* box-shadow: 10px 10px 25px rgba(255, 0, 0, 0.257); */
+    font-size: 25px;
+    padding: 0px 13px;
+    overflow: hidden;
+    /* transition: .2s; */
+}
+
+
+.share-3{
+    /* padding: 0px 30px 0px 150px; */
+    margin-left: 25px;
+}
+.share3-button{
+    width: 110px;
+    height: 42px;
+    background-color: rgb(255, 166, 0) !important;
+    color: black !important;
+    font-size: 12px !important;
+    padding-top: 9px !important;
+}
+.share3-button:hover{
+    background-color: gray !important;
+    color: white !important;
+    font-weight: 700 !important;
+}
+
+.footer-hr{
+    background-color:rgba(144, 144, 144, 0.758);
+    margin: 0;
+}
+
+.body-1{
+    text-align: start;
+    /* max-width: 350px; */
+}
+.body-2{
+    display: flex;
+}
+.body-3{
+    text-align: start;
+    /* max-width: 240px; */
+    /* background-color: red; */
+}
+
+.footer-body{
+    /* background-color: #252121; */
+    color: rgb(235, 233, 233);
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-body h5{
+    /* background-color: red; */
+    margin-top: 60px;
+    font-size: 20px;
+
+}
+.footer-input{
+    background-color: rgb(44, 44, 44);
+    font-size: 15px;
+    border: 1px solid rgb(43, 43, 43);
+}
+.search-icon{
+    background-color: rgb(255, 170, 0);
+    color: black;
+}
+
+.footer-text{
+    padding: 0px 20px;
+    text-align: left;
+}
+.footer-text a{
+    text-decoration: none;
+    color: rgb(197, 197, 197);
+    font-size: 15px;
+}
+.footer-text a:hover{
+    color: rgb(255, 170, 0);
+    text-decoration: underline;
+}
+.footer-text hr{
+    margin-bottom: 20px;
+}
+.body hr{
+    width: 50px;
+    height: 2px;
+}
+.g-hr{
+    margin-bottom: 35px;
+}
+.gallery-image{
+    /* width: 55px; */
+    /* height: 45px; */
+    /* margin: 2px; */
+    
+    width: 100%;
+    max-width: 55px;
+    height: 45px;
+    /* height: 100%; */
+    /* max-height: 45px; */
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+.rights{
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgb(142, 142, 142);
+    /* margin-bottom: 15px; */
+    /* background-color: red; */
+    padding: 4px 0px 6px 0px;
+}
+.r-hr{
+    color: gray;
+}
+.r-name{
+    color: rgb(212, 212, 212);
+}
+
+
+@media (min-width: 767px){
+    .body-3{
+        text-align: start;
+        max-width: 240px;
+        /* background-color: red; */
+    }
+}
+@media (min-width: 992px){
+    .body-1-content{
+        max-width: 350px;
+        /* background-color: rgb(51, 68, 68); */
+    }
+}
+
+@media (max-width: 400px){
+    .footer-text{
+        padding: 0px 4px;
+    }
+}
+@media (max-width: 576px){
+    .share-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .share-1{
+        /* text-align: left; */
+        padding-left: 5px;
+
+        display: flex;
+        /* flex-direction: column; */
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .logo-text h3{
+        font-size: 10px !important;
+        padding-top: 15px;
+        /* background-color: red; */
+    }
+
+    .footer-logo{
+        padding: 5px !important;
+    }
+    .share-2{
+        display: flex;
+        padding: 5px 30px;
+        border-left: 1px solid rgba(66, 66, 66, 0.758);
+        border-right: 1px solid rgba(66, 66, 66, 0.758);
+        padding: 0px 10px 15px 10px !important;
+    }
+    .icon{
+        color: rgb(179, 179, 179);
+        padding: 2px 12px;
+        /* margin: 2px; */
+        transition: .3s;
+    }
+    .share-3{
+        padding-bottom: 20px !important;
+    }
+    .body-3{
+        text-align: start;
+        /* max-width: 150px !important; */
+        /* background-color: red; */
+    }
+
+}
+@media (max-width: 767px){
+    .body-2{
+        display: block;
+    }
+    .body-3{
+        /* width: 100%; */
+    }
+    .images-div{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .gallery-image{
+        max-width: 115px;
+        height: 100%;
+        max-height: 75px;
+        margin: 6px;
+    }
+    .footer-text-div{
+        display: flex;
+        justify-content: center;
+        /* background-color: rgb(82, 102, 102); */
+    }
+    
+}
+
+@media (max-width: 870px){
+    .share-2{
+        padding: 25px 15px ;
+    }
+    .logo-text h3{
+        font-size: 20px !important;
+        /* background-color: red; */
+    }
+    .logo-text h6{
+        /* background-color: red; */
+        font-size: 12px !important;
+    }
+    .body-1{
+        /* width: 100%; */
+        /* background-color: red; */
+    }
+    
+}
+
+@media (max-width: 992px){
+    .share-1{
+        /* text-align: left; */
+        padding: 0px 5px 0px 5px ;
+    }
+    .logo-text h3{
+        font-size: 25px;
+        /* background-color: red; */
+    }
+    .logo-text h6{
+        /* background-color: red; */
+        font-size: 15px;
+    }
+    .share-2{
+        display: flex;
+        /* padding: 0px 10px 15px 10px !important; */
+        /* border-left: 1px solid rgba(248, 3, 3, 0.758); */
+        /* border-right: 1px solid rgba(245, 8, 8, 0.758); */
+    
+    }
+    .share-3{
+        padding: 0px 10px;
+    }
+    .footer-body{
+        display: block;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+}

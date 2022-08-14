@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+#Project Name: EduMaster
+##About: Educational Website
+
+Live Link: 
+
+
+###About this website:
+i. This website is a online based learning website.
+ii. Most popular courses are included here for learning from anywhere.
+iii. This website is built on react with the help of CSS component library such as react-bootstrap and Material-UI.
+iv. In this react app we've also used plain CSS, JSX etc.
+
+###Thank You!
 ## Available Scripts
 
 In the project directory, you can run:

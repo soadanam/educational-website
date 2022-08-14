@@ -1,0 +1,21 @@
+.contact h5{
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.contact p{
+    /* background-color: red; */
+    line-height: 5px;
+}
+.contact a{
+    color: rgb(233, 233, 233) !important;
+    background-color: rgb(255, 191, 0);
+    color: black !important;
+    border: none;
+    box-shadow: 5px 5px 5px rgba(0, 3, 30, 0.395);
+    width: 150px;
+    height: 45px;
+}
+.contact a:hover{
+    color: white !important;
+    /* font-weight: bold; */
+}

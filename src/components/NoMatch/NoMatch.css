@@ -1,0 +1,14 @@
+.notFoundPage{
+    /* background-color: red; */
+    background-image: url(../../images/background/pageNOTfound.jpeg);
+    /* height: 80vh; */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.notFoundPage h5{
+    /* padding-top: 10px; */
+    color: rgb(9, 60, 126);
+}

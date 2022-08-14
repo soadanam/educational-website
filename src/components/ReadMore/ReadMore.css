@@ -1,0 +1,11 @@
+.details{
+    /* background-color: rgb(245, 245, 245); */
+    padding: 0;
+}
+.go-somewhere-button{
+    color: rgb(211, 236, 254) !important;
+}
+.go-somewhere-button:hover{
+    color: white !important;
+    /* background-color: green; */
+}

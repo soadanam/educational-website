@@ -1,0 +1,67 @@
+.main-div{
+    background-image: url('../../images/background/back\ \(7\).jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    /* height: 800px; */
+    padding: 100px 0px 50px 0px;
+}
+.top-courses-heading h2{
+    color:rgb(4, 85, 78);
+    font-size: 60px;
+}
+.top-courses-heading h6{
+    color: rgb(4, 85, 78);
+    padding-bottom: 20px;
+    /* box-shadow: 10px 15px 15px rgb(4, 85, 78); */
+    font-size: 35px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+}
+
+.popular-courses{
+    /* margin: 15px; */
+    /* color: rgb(63, 104, 19); */
+    /* width: 800px; */
+}
+.grid .icons{
+    color: rgb(255, 183, 0);
+    
+}
+.grid-item{
+    border: 2px solid rgb(4, 85, 78);
+    height: 90px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.grid-item:hover{
+    background-color: rgb(4, 85, 78);
+    color: white;
+    border: none;
+    border: 1px solid rgba(249, 245, 235, 0.818);
+    cursor: pointer;
+    box-shadow: 7px 10px 10px rgb(198, 198, 198) ;
+    box-shadow: 7px 10px 10px rgba(4, 85, 78, 0.693);
+}
+.icons{
+    /* color: rgb(43, 255, 0); */
+    font-size: 40px;
+}
+.icons:hover{
+    color: white;
+}
+
+.grid-item h5{
+    font-size: 20px;
+    font-weight: 700;
+    transition: 1s;
+    margin: 0px;
+}
+
+.grid-item p{
+    font-size: 16px;
+    font-weight: 500;
+    /* color: gray; */
+}
+
