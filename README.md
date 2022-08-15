@@ -1,6 +1,6 @@
 # Project name: "EduMaster" 
 
-Live site link: https://
+Live site link: https://assignment9-educational-web.netlify.app/
 
 ## About this website:
 
@@ -10,7 +10,7 @@ ii. You can see the details of all courses listed here!
 
 iv. In this simple react app we've used react-bootstrap, material-ui, vanilla css along with JSX etc.
 
- [Go website](https://  )
+ [Go website]([https://](https://assignment9-educational-web.netlify.app/)  )
 
 
 ## Bug fixed:
