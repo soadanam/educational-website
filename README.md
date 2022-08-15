@@ -1,3 +1,49 @@
+# Project name: "EduMaster" 
+
+Live site link: https://assignment9-educational-web.netlify.app/
+
+## About this website:
+
+i. This website shows some online courses!
+
+ii. You can see the details of all courses listed here!
+
+iv. In this simple react app we've used react-bootstrap, material-ui, vanilla css along with JSX etc.
+
+ [Go website]([https://](https://assignment9-educational-web.netlify.app/)  )
+
+
+## Bug fixed:
+
+In the project directory, you can find
+
+In the project directory, you can find
+
+In the project directory, you can find
+
+[version: 1.0.1](https://assignment8-by-react.netlify.app/ ).
+
+
+### Available features:
+
+In the project directory.
+
+In the project directory.
+
+In the project directory.
+
+
+
+
+### Thanks!
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#� �B�i�g�e�s�t�-�C�o�m�p�a�n�y�-�I�n�-�T�h�e�-�W�o�r�l�d�-�s�o�a�d�a�n�a�m�
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
