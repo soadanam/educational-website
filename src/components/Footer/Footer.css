@@ -13,6 +13,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px 25px 0px 4px;
 }
 
 .share{
@@ -114,7 +115,9 @@
     /* background-color: #252121; */
     color: rgb(235, 233, 233);
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: space-between;
+    padding: 0px 20px 0px 30px;
 }
 .footer-body h5{
     /* background-color: red; */

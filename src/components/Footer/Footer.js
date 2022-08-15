@@ -23,7 +23,7 @@ const Footer = () => {
     const element10 = <FontAwesomeIcon icon={faPenFancy} />
     return (
         <>
-            <div id='about' className='footer-section'>
+            <div className='footer-section'>
 
                 <div className='share-section container'>
                     <div className='share share-1 flex-grow-1'>
@@ -60,7 +60,7 @@ const Footer = () => {
 
                 <hr className='footer-hr' />
 
-                <div className='footer-body container' >
+                <div className='container footer-body' >
                     <div className='body body-1'>
                         <div className='body-1-content'>
                             <h5> Sign Up For A Newsletter </h5>
