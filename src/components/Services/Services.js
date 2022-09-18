@@ -41,7 +41,7 @@ const Services = () => {
 
     const navigate = useNavigate();
     const handleNAvigateRight = () => navigate('/home/services/');
-    const handleNAvigateLaft = () => navigate('/home');
+    const handleNAvigateLeft = () => navigate('/home');
 
 
     return (
@@ -52,7 +52,7 @@ const Services = () => {
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
                 </div>
                 <div className='service-icon'>
-                    <button onClick={handleNAvigateLaft} className='service-icon-left'> <i class="fa-solid fa-angle-left"></i> </button>
+                    <button onClick={handleNAvigateLeft} className='service-icon-left'> <i class="fa-solid fa-angle-left"></i> </button>
                     <button onClick={handleNAvigateRight} className='service-icon-right'> <i class="fa-solid fa-angle-right"></i> </button>
                 </div>
             </div>
