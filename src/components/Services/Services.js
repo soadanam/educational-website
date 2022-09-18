@@ -9,6 +9,7 @@ import serviceImage2 from '../../images/service/a (2).jpeg';
 import serviceImage3 from '../../images/service/a (3).jpeg';
 import serviceImage4 from '../../images/service/a (4).jpeg';
 import 'animate.css';
+import { useNavigate } from 'react-router-dom';
 
 const Services = () => {
 
@@ -17,7 +18,6 @@ const Services = () => {
     const [isEntered3, setIsEntered3] = useState(false);
     const [isEntered4, setIsEntered4] = useState(false);
 
-    const greeting = "hello world!";
     const handleClick = event => {
         // setIsEntered(true);
 
@@ -39,6 +39,10 @@ const Services = () => {
         setIsEntered4(false);
     };
 
+    const navigate = useNavigate();
+    const handleNAvigateRight = () => navigate('/home/services/');
+    const handleNAvigateLaft = () => navigate('/home');
+
 
     return (
         <div className='container service-container'>
@@ -48,8 +52,8 @@ const Services = () => {
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
                 </div>
                 <div className='service-icon'>
-                    <button className='service-icon-left'> <i class="fa-solid fa-angle-left"></i> </button>
-                    <button className='service-icon-right'> <i class="fa-solid fa-angle-right"></i> </button>
+                    <button onClick={handleNAvigateLaft} className='service-icon-left'> <i class="fa-solid fa-angle-left"></i> </button>
+                    <button onClick={handleNAvigateRight} className='service-icon-right'> <i class="fa-solid fa-angle-right"></i> </button>
                 </div>
             </div>
 

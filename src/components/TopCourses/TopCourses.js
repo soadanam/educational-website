@@ -4,6 +4,7 @@ import { Grid, ListItem } from '@mui/material';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBullhorn, faCompassDrafting, faCubes, faDollarSign, faGuitar, faHandHoldingDollar, faHeartCircleCheck, faHouseLaptop, faMoneyBill, faMoneyBillTransfer, faPenToSquare, faPeopleLine, faReceipt, faSearch, faSmile, faVestPatches } from '@fortawesome/free-solid-svg-icons';
 import { Button} from '@mui/material';
+import { useNavigate } from 'react-router-dom';
 
 const TopCourses = () => {
 
@@ -17,18 +18,21 @@ const TopCourses = () => {
     const element8 = <FontAwesomeIcon icon={faGuitar} />
     const element9 = <FontAwesomeIcon icon={faCompassDrafting} />
 
+    const navigate = useNavigate();
+    const handleNavigate = () => navigate('/home/services/readMore1');
+
     return (
         <div className='main-div'>
             <div className='container top-courses-heading'>
                 <h2> Explore Our Popular Courses</h2>
                 {/* <Button className='course-button' variant='contained'> START NOW <i class="fa-solid fa-angle-right"> </i> </Button> */}
-                <h6 className='text-uppercase'> Go at your own pace.. </h6>
+                <h6 className='text-uppercase'> Go at your own pace! </h6>
             </div>
 
             <div container className='d-flex justify-content-around container popular-courses'>
                 <Grid container spacing={4}>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element1}
                             </div>
@@ -41,7 +45,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element2}
                             </div>
@@ -54,7 +58,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element3}
                             </div>
@@ -67,7 +71,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element4}
                             </div>
@@ -80,7 +84,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element5}
                             </div>
@@ -93,7 +97,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element6}
                             </div>
@@ -106,7 +110,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element7}
                             </div>
@@ -119,7 +123,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element8}
                             </div>
@@ -132,7 +136,7 @@ const TopCourses = () => {
                         </div>
                     </Grid>
                     <Grid item className='grid' xs={12} sm={6} md={4}>
-                        <div className='grid-item d-flex justify-content-center'>
+                        <div onClick={handleNavigate} className='grid-item d-flex justify-content-center'>
                             <div className='icons' xs={6}>
                                 {element9}
                             </div>

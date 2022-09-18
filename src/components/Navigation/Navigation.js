@@ -25,7 +25,7 @@ const Navigation = () => {
             <div className='container nav-container'>
 
                 <div className='nav-menu'>
-                    <a href='aa'>
+                    <a href='/'>
                         <img src={logo} alt='Logo!' className='logo responsive'></img>
                     </a>
 
@@ -33,7 +33,7 @@ const Navigation = () => {
                     <NavLink className='nav-item' to='/topCourses' style={({ isActive }) => isActive ? activeStyle : undefined}> Top Courses </NavLink>
                     <NavLink className='nav-item' to='/home/services/' style={({ isActive }) => isActive ? activeStyle : undefined}>  Services</NavLink>
                     <NavLink className='nav-item' to='/about' style={({ isActive }) => isActive ? activeStyle : undefined}> About </NavLink>
-                    <NavLink className='nav-item' to='/contact' style={({ isActive }) => isActive ? activeStyle : undefined}> Contact Us</NavLink>
+                    <NavLink className='nav-item' to='/contact' style={({ isActive }) => isActive ? activeStyle : undefined}> Contact us</NavLink>
                     
                     <Button className='login-button' variant='outlined'>LOGIN</Button>
                 </div>

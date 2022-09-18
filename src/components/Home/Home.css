@@ -64,7 +64,8 @@
 }
 .top-logo{
     background-color: rgba(244, 233, 222, 0.884);
-    margin: 5px;
+    /* margin: 5px; */
+    margin: 17px 5px;
     height: 230px;
     width: 220px;
     color: black;

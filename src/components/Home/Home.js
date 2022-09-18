@@ -24,7 +24,7 @@ const Home = () => {
 
     let navigate = useNavigate();
     const handleNavigate = () => {
-        navigate('/allCourses');
+        navigate('/topCourses');
     }
     let navigate2 = useNavigate();
     const handleNavigate2 = () => {
@@ -38,7 +38,7 @@ const Home = () => {
                 <h1 className='container'> Learning Courses Online </h1>
                 <div className='top-text-div'>
                     <div className='top-text'>
-                        <p> We offer professional SEO services that help websites <span className='organic-search'>increase their organic search</span> score drastically in order to complete for the highest rankings. </p>
+                        <p> We offer professional SEO services that help websites <span className='organic-search' onClick={handleNavigate}>increase their organic search</span> score drastically in order to complete for the highest rankings. </p>
                     </div>
                 </div>
 
@@ -82,8 +82,8 @@ const Home = () => {
                             <p>It is a long established fact that a reader will be distracted by the readable content of a page.</p>
                         </div>
                         <div className='service-icon'>
-                            <button className='service-icon-left'> <i class="fa-solid fa-angle-left"></i> </button>
-                            <button className='service-icon-right'> <i class="fa-solid fa-angle-right"></i> </button>
+                            <button onClick={handleNavigate} className='service-icon-left'> <i class="fa-solid fa-angle-left"></i> </button>
+                            <button onClick={handleNavigate} className='service-icon-right'> <i class="fa-solid fa-angle-right"></i> </button>
                         </div>
                     </div>
 

@@ -9,7 +9,7 @@ const Top = () => {
                     <span className='pe-2 top-address-text'>
                         <i class="fa-solid fa-location-dot"></i> 2072 Pinnickinick Street, WA 98370
                     </span>
-                    <i class="fa-solid fa-envelope"></i> <a href='aa'>info@website.com </a>
+                    <i class="fa-solid fa-envelope"></i> <a href='/contact'>info@website.com </a>
                 </div>
                 <div className='top-icons'>
                     <a href='#' className='top-icon'>

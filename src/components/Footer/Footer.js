@@ -28,7 +28,7 @@ const Footer = () => {
                 <div className='share-section container'>
                     <div className='share share-1 flex-grow-1'>
                         <div className='footer-logo p-3'>
-                            <a href='#'>
+                            <a href='/home'>
                                 <img src={logo} alt='Logo!' className='logo responsive'></img>
                             </a>
                         </div>
@@ -79,10 +79,10 @@ const Footer = () => {
                             <div className='footer-text'>
                                 <h5>Company</h5>
                                 <hr />
-                                <a href='#'>Home</a> <br />
-                                <a href='#'>About</a> <br />
+                                <a href='/home'>Home</a> <br />
+                                <a href='/about'>About</a> <br />
                                 <a href='#'>FAQs</a> <br />
-                                <a href='#'>Contact</a> <br />
+                                <a href='/contact'>Contact</a> <br />
                             </div>
                             <div className='footer-text'>
                                 <h5>Get In Touch</h5>
@@ -95,8 +95,8 @@ const Footer = () => {
                             <div className='footer-text'>
                                 <h5>Courses</h5>
                                 <hr />
-                                <a href='#'>Courses</a> <br />
-                                <a href='#'>Details</a> <br />
+                                <a href='/'>Courses</a> <br />
+                                <a href='home/services/readMore'>Details</a> <br />
                                 <a href='#'>Membership</a> <br />
                                 <a href='#'>Profile</a> <br />
                             </div>

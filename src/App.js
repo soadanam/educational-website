@@ -18,7 +18,7 @@ export const RingContext = createContext('ring');
 function App() {
   return (
     <div className="App">
-      <RingContext.Provider value = {'diamond'}>
+      <RingContext.Provider value = {'Context API'}>
         <BrowserRouter>
           <Top></Top>
           <Navigation></Navigation>
