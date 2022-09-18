@@ -1,4 +1,4 @@
-# Project name: "EduMaster" 
+# Project name: "EduMaster!" 
 
 Live site link: https://assignment9-educational-web.netlify.app/
 
