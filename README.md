@@ -3,10 +3,11 @@
 Live site link: https://assignment9-educational-web.netlify.app/
 
 ## About this website:
+i. This is an educational website.
 
-i. This website shows some online courses!
+ii. It shows some online courses!
 
-ii. You can see the details of all courses listed here!
+iii. We can find the details of all courses that listed here!
 
 iv. In this simple react app we've used react-bootstrap, material-ui, vanilla css along with JSX etc.
 
@@ -14,6 +15,7 @@ iv. In this simple react app we've used react-bootstrap, material-ui, vanilla cs
 
 
 ## Bug fixed:
+All bugs were fiexd!
 
 In the project directory, you can find
 
@@ -21,10 +23,12 @@ In the project directory, you can find
 
 In the project directory, you can find
 
-[version: 1.0.1](https://assignment8-by-react.netlify.app/ ).
+[version: 1.0.1]([https://assignment8-by-react.netlify.app/](https://assignment9-educational-web.netlify.app/) ).
 
 
 ### Available features:
+
+Fully Responsive and mobile friendly.
 
 In the project directory.
 
@@ -51,7 +55,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #Project Name: EduMaster
 ##About: Educational Website
 
-Live Link: 
+Live Link: https://assignment9-educational-web.netlify.app/
 
 
 ###About this website:
