@@ -1,6 +1,10 @@
 # Project name: "EduMaster!" 
 
-Live site link: https://assignment9-educational-web.netlify.app/
+Live site (Netlify) : https://assignment9-educational-web.netlify.app/
+
+Livi site (Firebase): https://fir-authentication-redon.web.app/
+
+Live site (Github) : https://soadanam.github.io/educational-website/index.html 
 
 ## About this website:
 i. This is an educational website.
