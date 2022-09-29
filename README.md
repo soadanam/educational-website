@@ -6,7 +6,9 @@ Livi site (Firebase): https://fir-authentication-redon.web.app/
 
 Live site (Github) : https://soadanam.github.io/educational-website/index.html 
 
+
 ## About this website:
+
 i. This is an educational website.
 
 ii. It shows some online courses!
@@ -19,6 +21,7 @@ iv. In this simple react app we've used react-bootstrap, material-ui, vanilla cs
 
 
 ## Bug fixed:
+
 All bugs were fiexd!
 
 In the project directory, you can find
